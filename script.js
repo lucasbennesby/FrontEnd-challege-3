@@ -17,7 +17,7 @@ function calculaGorjeta(gorjeta, gorjetaCustom) {
   var gorjetaTotal;
   var contaTotal;
   var contaPessoa;
-  if (valor.value != "" && pessoas.value != "") {
+  if (pessoas.value != "") {
     if (gorjetaCustom.value != "") {
       gorjetaTotal = parseFloat(valor.value * gorjetaCustom.value) / 100;
     } else {
