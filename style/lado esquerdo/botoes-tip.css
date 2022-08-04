@@ -1,0 +1,46 @@
+.botoes-tip {
+}
+.controle {
+  display: flex;
+  justify-content: space-between;
+}
+.botoes {
+}
+.botao-tip {
+  width: 5.6rem;
+  border-radius: 4px;
+  border: none;
+  height: 2.2rem;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-family: "Overpass Mono", monospace;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.botao-tip:active {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+#tip-label {
+  color: hsl(186, 14%, 43%);
+  display: block;
+  font-family: "Overpass Mono", monospace;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+#custom {
+  background-color: hsl(189, 41%, 97%);
+  border: 1px solid hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+}
+#custom:focus {
+  color: hsl(183, 100%, 15%);
+  border: 1px solid hsl(172, 67%, 45%);
+}
+#custom::placeholder {
+  color: hsl(186, 14%, 43%);
+}

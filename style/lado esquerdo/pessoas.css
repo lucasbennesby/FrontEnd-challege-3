@@ -1,0 +1,44 @@
+.icone-pessoa {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  bottom: 25px;
+  left: 5px;
+}
+
+.numero-pessoas {
+  position: relative;
+  top: 13%;
+}
+#pessoas-label {
+  color: hsl(186, 14%, 43%);
+  display: block;
+  font-family: "Overpass Mono", monospace;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+#pessoas {
+  height: 5vh;
+  width: 100%;
+  border: 2px solid hsl(189, 41%, 97%);
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 4px;
+  font-family: "Overpass Mono", monospace;
+  font-size: 16px;
+  color: hsl(172, 67%, 45%);
+  text-align: end;
+  align-self: initial;
+  margin-inline-start: -5px;
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  font-size: 24px;
+}
+#pessoas:focus {
+  cursor: pointer;
+  border-color: hsl(172, 67%, 45%);
+}
+#pessoas::placeholder {
+  text-align: end;
+}

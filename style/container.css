@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 55vw;
+  height: 50vh;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding-inline-start: 1.5%;
+  padding-inline-end: 1.5%;
+  padding-block-start: 2%;
+  padding-block-end: 2%;
+}

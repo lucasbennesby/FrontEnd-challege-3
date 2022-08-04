@@ -1,0 +1,23 @@
+.botao-reset {
+  display: flex;
+  justify-content: center;
+}
+.reset {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  height: 5.7vh;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  font-family: "Overpass Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.reset:active {
+  border-radius: 5px;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  transition: all 0.01s ease-in;
+}
